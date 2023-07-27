@@ -1,0 +1,15 @@
+We use the async keyword with a function to represent that the function is an asynchronous function. 
+The async function returns a promise.
+
+The syntax of async function is:
+async function name(parameter1, parameter2, ...paramaterN) {
+    // statements
+}
+
+The await keyword is used inside the async function to wait for the asynchronous operation.
+The syntax to use await is:
+let result = await promise;
+The use of await pauses the async function until the promise returns a result (resolve or reject) value.
+
+The async function allows the asynchronous method to be executed in a seemingly synchronous way. 
+Though the operation is asynchronous, it seems that the operation is executed in synchronous manner.
